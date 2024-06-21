@@ -1,0 +1,9 @@
+.admin-layout{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+
+.admin-layout main{
+    padding: 50px;
+}

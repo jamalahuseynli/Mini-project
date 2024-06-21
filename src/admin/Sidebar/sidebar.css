@@ -1,0 +1,40 @@
+
+.nav-admin{
+    display: flex;
+   flex-direction: column;
+}
+
+.sidebar{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background-color: black;
+   height: 100vh; 
+   position: sticky;
+   top: 0;
+   left: 0;
+   padding: 50px;
+   font-size: 22px;
+   font-family: "Poppins", sans-serif;
+
+}
+
+.sidebar a{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover{
+    color: rgb(221, 255, 222);
+}
+
+.sidebar .active{
+    color: rgb(147, 244, 152);
+}
+
+.back-home a{
+    font-size: 14px;
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logoLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.links a {
+    font-size: 16px;
+    min-width: 80px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.links a:hover{
+    color: blue;
+}
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+header {
+    padding: 20px 0;
+    width: 100%;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+}
+
+.profile {
+    margin-left: 50px;
+}
+
+.profile svg{
+    font-size: 24px;
+}
+
+.profile svg:hover{
+    cursor: pointer;
+}
+
+/* .profile span{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+} */
+
+.profile >a{
+    color: blue;
+    font-weight: 600;
+    display: inline-block;
+    padding: 8px 10px;
+    border: 1px solid blue;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.profile >a:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+
+.profile > span{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.dropdown{
+    position: absolute;
+    background-color: white;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 6px;
+    border-radius: 6px;
+}
+
+.dropdown a{
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+}
+.dropdown a:first-child{
+    border-bottom: 1px solid black;
+}
+
+

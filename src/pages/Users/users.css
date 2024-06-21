@@ -1,0 +1,39 @@
+.usersCont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.usersPageCont {
+    width: 80%;
+    gap: 30px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnsPage{
+    display: flex;
+    gap: 10px;
+}
+
+.btnsPage a{
+    border-radius: 50%;
+    padding: 6px 9px;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+    font-size: 10px;
+    transition: 0.3s;
+}
+
+.btnsPage a:hover{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+}
+

@@ -1,0 +1,27 @@
+.table{
+    padding: 50px;
+}
+
+.thead{
+    padding: 20px !important;
+}
+
+.cont-admin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cont-admin img{
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.cont-admin button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}

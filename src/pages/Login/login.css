@@ -1,0 +1,61 @@
+
+.login-cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 39, 39);
+}
+
+.card-mui{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    min-width: 450px;
+    box-shadow: 0px 0px 15px black !important;
+}
+
+.sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    min-width: 300px;
+}
+
+.btn-log-reg{
+    width: 100% !important;
+    background-color: blue !important;
+    color: white !important;
+    padding: 10px !important;
+    font-weight: 600 !important;
+}
+
+.reg-log-href{
+    color: blue;
+    text-decoration: underline;
+}
+
+.login-cont p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+.title-card::after{
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.284);
+    margin-top: 20px;
+    min-width: 450px;
+    
+}
